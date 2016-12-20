@@ -1,0 +1,82 @@
+heat_template_version: 2014-10-16
+resources:
+  userdata:
+    type: OS::Heat::MultipartMime
+    properties:
+      parts:
+      - config: {get_resource: clean_disk}
+      #- config: {get_resource: disable_selinux}
+      #- config: {get_resource: register_host}
+  disable_selinux:
+    type: OS::Heat::SoftwareConfig
+    properties:
+      config: |
+        #!/bin/bash
+        #{
+        #  sed -i -e 's/^SELINUX.*/SELINUX=permissive/' /etc/sysconfig/selinux
+        #} 2>&1 | tee /root/disable_selinux
+  clean_disk:
+    type: OS::Heat::SoftwareConfig
+    properties:
+      config: |
+        #!/bin/bash
+        {
+        for i in {a..z}
+        do
+        #Add code to only do this one ceph nodes?  only the ceph nodes have sdb - sdp
+           echo "Looking at sd$i"
+           #if [ -b /dev/$disk ]
+           #then
+             echo "Working on disk:sd$i"
+             sgdisk -og /dev/sd$i
+           #fi
+        done
+        for i in {a..j}
+        do
+          echo "Looking at sda$i"
+          sgdisk -og /dev/sda$i
+        done
+        
+        #add code to make journal partitions?
+        for disk in 0 1
+        do
+           echo "Looking at nvme$in1"
+           if [ -b /dev/nvme$in1 ]
+           then
+             for part in `seq 1 18`
+             do
+               echo "Working on disk:nvme$in1 part:$part"
+               sgdisk -n $part:0:+5G /dev/nvme$in1
+             done
+           fi
+        done
+        
+        } 2>&1 | tee /root/wipe-disk.txt
+  register_host:
+    type: OS::Heat::SoftwareConfig
+    properties:
+      config: |
+        #!/bin/bash
+        { 
+           \mv /etc/sysconfig/rhn/systemid ~
+           #subscribe to subscription manager & repos
+           subscription-manager register --username sysengra --password 24^gold
+           #subscription-manager attach --pool 8a85f9814bfa3a50014c234c0eca3812
+           #subscription-manager attach --pool  8a85f9814f6a5379014f6a8fa481679e
+           #subscription-manager attach --pool  8a85f9814f6a5379014f6a8f47d16281
+                #--enable=rhel-7-server-openstack-7.0-rpms \
+                #--enable=rhel-7-server-openstack-7.0-director-rpms \
+           #subscription-manager attach --pool  8a85f98151bb49d20151c6806f8b76f4
+           subscription-manager attach --pool  8a85f9814f9483f0014f94b03971218e
+           subscription-manager repos  --disable=*
+           subscription-manager repos \
+                --enable=rhel-7-server-rpms \
+                --enable=rhel-7-server-optional-rpms \
+                --enable=rhel-7-server-extras-rpms \
+                --enable=rhel-7-server-rhceph-1.3-tools-rpms \
+                --enable=rhel-7-server-rh-common-rpms 
+           #yum -y update
+        } 2>&1 | tee /root/rhn-register.out
+outputs:
+  OS::stack_id:
+    value: {get_resource: userdata}
