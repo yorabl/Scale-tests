@@ -23,13 +23,9 @@ resources:
         {
         for i in {a..z}
         do
-        #Add code to only do this one ceph nodes?  only the ceph nodes have sdb - sdp
            echo "Looking at sd$i"
-           #if [ -b /dev/$disk ]
-           #then
              echo "Working on disk:sd$i"
              sgdisk -og /dev/sd$i
-           #fi
         done
         for i in {a..j}
         do
@@ -38,18 +34,19 @@ resources:
         done
         
         #add code to make journal partitions?
-        for disk in 0 1
-        do
-           echo "Looking at nvme$in1"
-           if [ -b /dev/nvme$in1 ]
-           then
-             for part in `seq 1 18`
-             do
-               echo "Working on disk:nvme$in1 part:$part"
-               sgdisk -n $part:0:+5G /dev/nvme$in1
-             done
-           fi
-        done
+        #for i in 0 1
+        #do
+        #   echo "Looking at nvme$in1"
+        #   if [ -b /dev/nvme${i}n1 ]
+        #   then
+        #     sgdisk -og /dev/nvme${i}n1
+        #     for part in `seq 1 18`
+        #     do
+        #       echo "Working on disk:nvme$in1 part:$part"
+        #       sgdisk -n $part:0:+5G /dev/nvme${i}n1
+        #     done
+        #   fi
+        #done
         
         } 2>&1 | tee /root/wipe-disk.txt
   register_host:
