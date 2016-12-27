@@ -3,11 +3,11 @@
         {
             "arch": "x86_64", 
             "cpu": "2", 
-            "disk": "20", 
+            "disk": "40", 
             "mac": [
                 "b8:ca:3a:66:e3:ba"
             ], 
-            "memory": "1024", 
+            "memory": "8192", 
             "pm_addr": "mgmt-c01-h02-r620.rdu.openstack.engineering.redhat.com", 
             "pm_password": "100yard-", 
             "pm_type": "pxe_ipmitool", 
@@ -17,11 +17,11 @@
         {
             "arch": "x86_64", 
             "cpu": "2", 
-            "disk": "20", 
+            "disk": "40", 
             "mac": [
                 "b8:ca:3a:66:f5:52"
             ], 
-            "memory": "1024", 
+            "memory": "8192", 
             "pm_addr": "mgmt-c01-h03-r620.rdu.openstack.engineering.redhat.com", 
             "pm_password": "100yard-", 
             "pm_type": "pxe_ipmitool",
@@ -31,11 +31,11 @@
         {
             "arch": "x86_64", 
             "cpu": "2", 
-            "disk": "20", 
+            "disk": "40", 
             "mac": [
                 "b8:ca:3a:66:eb:ea"
             ], 
-            "memory": "1024", 
+            "memory": "8192", 
             "pm_addr": "mgmt-c01-h05-r620.rdu.openstack.engineering.redhat.com", 
             "pm_password": "100yard-", 
             "pm_type": "pxe_ipmitool", 
@@ -45,11 +45,11 @@
         {
             "arch": "x86_64", 
             "cpu": "2", 
-            "disk": "20", 
+            "disk": "40", 
             "mac": [
                 "b8:ca:3a:66:ef:5a"
             ], 
-            "memory": "1024", 
+            "memory": "8192", 
             "pm_addr": "mgmt-c01-h06-r620.rdu.openstack.engineering.redhat.com", 
             "pm_password": "100yard-", 
             "pm_type": "pxe_ipmitool", 
@@ -59,11 +59,11 @@
         {
             "arch": "x86_64", 
             "cpu": "2", 
-            "disk": "20", 
+            "disk": "40", 
             "mac": [
                 "b8:ca:3a:66:ee:2a"
             ], 
-            "memory": "1024", 
+            "memory": "8192", 
             "pm_addr": "mgmt-c01-h07-r620.rdu.openstack.engineering.redhat.com", 
             "pm_password": "100yard-", 
             "pm_type": "pxe_ipmitool", 
@@ -73,11 +73,11 @@
         {
             "arch": "x86_64", 
             "cpu": "2", 
-            "disk": "20", 
+            "disk": "40", 
             "mac": [
                 "b8:ca:3a:66:f1:b2"
             ], 
-            "memory": "1024", 
+            "memory": "8192", 
             "pm_addr": "mgmt-c01-h09-r620.rdu.openstack.engineering.redhat.com", 
             "pm_password": "100yard-", 
             "pm_type": "pxe_ipmitool", 
@@ -87,11 +87,11 @@
         {
             "arch": "x86_64", 
             "cpu": "2", 
-            "disk": "20", 
+            "disk": "40", 
             "mac": [
                 "b8:ca:3a:66:e3:82"
             ], 
-            "memory": "1024", 
+            "memory": "8192", 
             "pm_addr": "mgmt-c01-h11-r620.rdu.openstack.engineering.redhat.com", 
             "pm_password": "100yard-", 
             "pm_type": "pxe_ipmitool", 
@@ -101,11 +101,11 @@
         {
             "arch": "x86_64", 
             "cpu": "2", 
-            "disk": "20", 
+            "disk": "40", 
             "mac": [
                 "b8:ca:3a:66:d6:da"
             ], 
-            "memory": "1024", 
+            "memory": "8192", 
             "pm_addr": "mgmt-c01-h14-r620.rdu.openstack.engineering.redhat.com", 
             "pm_password": "100yard-", 
             "pm_type": "pxe_ipmitool", 
@@ -115,11 +115,11 @@
         {
             "arch": "x86_64", 
             "cpu": "2", 
-            "disk": "20", 
+            "disk": "40", 
             "mac": [
                 "b8:ca:3a:66:dc:ea"
             ], 
-            "memory": "1024", 
+            "memory": "8192", 
             "pm_addr": "mgmt-c01-h15-r620.rdu.openstack.engineering.redhat.com", 
             "pm_password": "100yard-", 
             "pm_type": "pxe_ipmitool", 
@@ -129,11 +129,11 @@
         {
             "arch": "x86_64", 
             "cpu": "2", 
-            "disk": "20", 
+            "disk": "40", 
             "mac": [
                 "b8:ca:3a:66:d5:52"
             ], 
-            "memory": "1024", 
+            "memory": "8192", 
             "pm_addr": "mgmt-c01-h17-r620.rdu.openstack.engineering.redhat.com", 
             "pm_password": "100yard-", 
             "pm_type": "pxe_ipmitool", 
@@ -143,11 +143,11 @@
         {
             "arch": "x86_64", 
             "cpu": "2", 
-            "disk": "20", 
+            "disk": "40", 
             "mac": [
                 "b8:ca:3a:66:dd:d2"
             ], 
-            "memory": "1024", 
+            "memory": "8192", 
             "pm_addr": "mgmt-c01-h18-r620.rdu.openstack.engineering.redhat.com", 
             "pm_password": "100yard-", 
             "pm_type": "pxe_ipmitool", 
@@ -157,11 +157,11 @@
         {
             "arch": "x86_64", 
             "cpu": "2", 
-            "disk": "20", 
+            "disk": "40", 
             "mac": [
                 "b8:ca:3a:66:d7:02"
             ], 
-            "memory": "1024", 
+            "memory": "8192", 
             "pm_addr": "mgmt-c01-h19-r620.rdu.openstack.engineering.redhat.com", 
             "pm_password": "100yard-", 
             "pm_type": "pxe_ipmitool", 
@@ -171,11 +171,11 @@
         {
             "arch": "x86_64", 
             "cpu": "2", 
-            "disk": "20", 
+            "disk": "40", 
             "mac": [
                 "b8:ca:3a:66:dd:da"
             ], 
-            "memory": "1024", 
+            "memory": "8192", 
             "pm_addr": "mgmt-c01-h21-r620.rdu.openstack.engineering.redhat.com", 
             "pm_password": "100yard-", 
             "pm_type": "pxe_ipmitool", 
@@ -185,11 +185,11 @@
         {
             "arch": "x86_64", 
             "cpu": "2", 
-            "disk": "20", 
+            "disk": "40", 
             "mac": [
                 "b8:ca:3a:66:dc:da"
             ], 
-            "memory": "1024", 
+            "memory": "8192", 
             "pm_addr": "mgmt-c01-h22-r620.rdu.openstack.engineering.redhat.com", 
             "pm_password": "100yard-", 
             "pm_type": "pxe_ipmitool", 
@@ -199,11 +199,11 @@
         {
             "arch": "x86_64", 
             "cpu": "2", 
-            "disk": "20", 
+            "disk": "40", 
             "mac": [
                 "b8:ca:3a:66:dd:ca"
             ], 
-            "memory": "1024", 
+            "memory": "8192", 
             "pm_addr": "mgmt-c01-h23-r620.rdu.openstack.engineering.redhat.com", 
             "pm_password": "100yard-", 
             "pm_type": "pxe_ipmitool", 
@@ -213,11 +213,11 @@
         {
             "arch": "x86_64", 
             "cpu": "2", 
-            "disk": "20", 
+            "disk": "40", 
             "mac": [
                 "b8:ca:3a:61:41:6a"
             ], 
-            "memory": "1024", 
+            "memory": "8192", 
             "pm_addr": "mgmt-c02-h01-r620.rdu.openstack.engineering.redhat.com", 
             "pm_password": "100yard-", 
             "pm_type": "pxe_ipmitool", 
@@ -227,11 +227,11 @@
         {
             "arch": "x86_64", 
             "cpu": "2", 
-            "disk": "20", 
+            "disk": "40", 
             "mac": [
                 "b8:ca:3a:60:c6:6a"
             ], 
-            "memory": "1024", 
+            "memory": "8192", 
             "pm_addr": "mgmt-c02-h02-r620.rdu.openstack.engineering.redhat.com", 
             "pm_password": "100yard-", 
             "pm_type": "pxe_ipmitool", 
@@ -241,11 +241,11 @@
         {
             "arch": "x86_64", 
             "cpu": "2", 
-            "disk": "20", 
+            "disk": "40", 
             "mac": [
                 "b8:ca:3a:61:42:d2"
             ], 
-            "memory": "1024", 
+            "memory": "8192", 
             "pm_addr": "mgmt-c02-h03-r620.rdu.openstack.engineering.redhat.com", 
             "pm_password": "100yard-", 
             "pm_type": "pxe_ipmitool", 
@@ -255,11 +255,11 @@
         {
             "arch": "x86_64", 
             "cpu": "2", 
-            "disk": "20", 
+            "disk": "40", 
             "mac": [
                 "b8:ca:3a:60:bd:1a"
             ], 
-            "memory": "1024", 
+            "memory": "8192", 
             "pm_addr": "mgmt-c02-h05-r620.rdu.openstack.engineering.redhat.com", 
             "pm_password": "100yard-", 
             "pm_type": "pxe_ipmitool", 
@@ -269,11 +269,11 @@
         {
             "arch": "x86_64", 
             "cpu": "2", 
-            "disk": "20", 
+            "disk": "40", 
             "mac": [
                 "b8:ca:3a:60:bf:22"
             ], 
-            "memory": "1024", 
+            "memory": "8192", 
             "pm_addr": "mgmt-c02-h07-r620.rdu.openstack.engineering.redhat.com", 
             "pm_password": "100yard-", 
             "pm_type": "pxe_ipmitool", 
@@ -283,11 +283,11 @@
         {
             "arch": "x86_64", 
             "cpu": "2", 
-            "disk": "20", 
+            "disk": "40", 
             "mac": [
                 "b8:ca:3a:5f:b1:6a"
             ], 
-            "memory": "1024", 
+            "memory": "8192", 
             "pm_addr": "mgmt-c02-h10-r620.rdu.openstack.engineering.redhat.com", 
             "pm_password": "100yard-", 
             "pm_type": "pxe_ipmitool", 
@@ -297,11 +297,11 @@
         {
             "arch": "x86_64", 
             "cpu": "2", 
-            "disk": "20", 
+            "disk": "40", 
             "mac": [
                 "b8:ca:3a:67:26:d2"
             ], 
-            "memory": "1024", 
+            "memory": "8192", 
             "pm_addr": "mgmt-c02-h14-r620.rdu.openstack.engineering.redhat.com", 
             "pm_password": "100yard-", 
             "pm_type": "pxe_ipmitool", 
@@ -311,11 +311,11 @@
         {
             "arch": "x86_64", 
             "cpu": "2", 
-            "disk": "20", 
+            "disk": "40", 
             "mac": [
                 "b8:ca:3a:66:d5:9a"
             ], 
-            "memory": "1024", 
+            "memory": "8192", 
             "pm_addr": "mgmt-c02-h15-r620.rdu.openstack.engineering.redhat.com", 
             "pm_password": "100yard-", 
             "pm_type": "pxe_ipmitool", 
@@ -325,11 +325,11 @@
         {
             "arch": "x86_64", 
             "cpu": "2", 
-            "disk": "20", 
+            "disk": "40", 
             "mac": [
                 "b8:ca:3a:66:d9:c2"
             ], 
-            "memory": "1024", 
+            "memory": "8192", 
             "pm_addr": "mgmt-c02-h17-r620.rdu.openstack.engineering.redhat.com", 
             "pm_password": "100yard-", 
             "pm_type": "pxe_ipmitool", 
@@ -339,11 +339,11 @@
         {
             "arch": "x86_64", 
             "cpu": "2", 
-            "disk": "20", 
+            "disk": "40", 
             "mac": [
                 "0c:c4:7a:19:69:09"
             ], 
-            "memory": "1024", 
+            "memory": "8192", 
             "pm_addr": "mgmt-c04-h01-6048r.rdu.openstack.engineering.redhat.com", 
             "pm_password": "100yard-",
             "capabilities":"profile:ceph-storage", 
@@ -353,11 +353,11 @@
         {
             "arch": "x86_64", 
             "cpu": "2", 
-            "disk": "20", 
+            "disk": "40", 
             "mac": [
                 "0c:c4:7a:19:69:73"
             ], 
-            "memory": "1024", 
+            "memory": "8192", 
             "pm_addr": "mgmt-c04-h05-6048r.rdu.openstack.engineering.redhat.com", 
             "pm_password": "100yard-",
             "capabilities":"profile:ceph-storage", 
@@ -367,11 +367,11 @@
         {
             "arch": "x86_64", 
             "cpu": "2", 
-            "disk": "20", 
+            "disk": "40", 
             "mac": [
                 "0c:c4:7a:19:6a:69"
             ], 
-            "memory": "1024", 
+            "memory": "8192", 
             "pm_addr": "mgmt-c04-h09-6048r.rdu.openstack.engineering.redhat.com", 
             "pm_password": "100yard-", 
             "pm_type": "pxe_ipmitool", 
@@ -381,11 +381,11 @@
         {
             "arch": "x86_64", 
             "cpu": "2", 
-            "disk": "20", 
+            "disk": "40", 
             "mac": [
                 "0c:c4:7a:19:69:c1"
             ], 
-            "memory": "1024", 
+            "memory": "8192", 
             "pm_addr": "mgmt-c04-h13-6048r.rdu.openstack.engineering.redhat.com", 
             "pm_password": "100yard-", 
             "pm_type": "pxe_ipmitool", 
@@ -395,11 +395,11 @@
         {
             "arch": "x86_64", 
             "cpu": "2", 
-            "disk": "20", 
+            "disk": "40", 
             "mac": [
                 "0c:c4:7a:19:69:dd"
             ], 
-            "memory": "1024", 
+            "memory": "8192", 
             "pm_addr": "mgmt-c04-h17-6048r.rdu.openstack.engineering.redhat.com", 
             "pm_password": "100yard-",
             "capabilities":"profile:ceph-storage", 
@@ -409,11 +409,11 @@
         {
             "arch": "x86_64", 
             "cpu": "2", 
-            "disk": "20", 
+            "disk": "40", 
             "mac": [
                 "0c:c4:7a:19:69:05"
             ], 
-            "memory": "1024", 
+            "memory": "8192", 
             "pm_addr": "mgmt-c04-h21-6048r.rdu.openstack.engineering.redhat.com", 
             "pm_password": "100yard-", 
             "pm_type": "pxe_ipmitool", 
@@ -423,11 +423,11 @@
         {
             "arch": "x86_64", 
             "cpu": "2", 
-            "disk": "20", 
+            "disk": "40", 
             "mac": [
                 "0c:c4:7a:19:69:85"
             ], 
-            "memory": "1024", 
+            "memory": "8192", 
             "pm_addr": "mgmt-c04-h25-6048r.rdu.openstack.engineering.redhat.com", 
             "pm_password": "100yard-", 
             "pm_type": "pxe_ipmitool",
@@ -437,11 +437,11 @@
         {
             "arch": "x86_64", 
             "cpu": "2", 
-            "disk": "20", 
+            "disk": "40", 
             "mac": [
                 "0c:c4:7a:19:69:d3"
             ], 
-            "memory": "1024", 
+            "memory": "8192", 
             "pm_addr": "mgmt-c04-h29-6048r.rdu.openstack.engineering.redhat.com", 
             "pm_password": "100yard-", 
             "pm_type": "pxe_ipmitool", 
@@ -451,11 +451,11 @@
         {
             "arch": "x86_64", 
             "cpu": "2", 
-            "disk": "20", 
+            "disk": "40", 
             "mac": [
                 "0c:c4:7a:4b:5c:f1"
             ], 
-            "memory": "1024", 
+            "memory": "8192", 
             "pm_addr": "mgmt-c04-h33-6018r.rdu.openstack.engineering.redhat.com", 
             "pm_password": "100yard-", 
             "pm_type": "pxe_ipmitool",
@@ -465,11 +465,11 @@
         {
             "arch": "x86_64", 
             "cpu": "2", 
-            "disk": "20", 
+            "disk": "40", 
             "mac": [
                 "0c:c4:7a:19:6a:01"
             ], 
-            "memory": "1024", 
+            "memory": "8192", 
             "pm_addr": "mgmt-c05-h05-6048r.rdu.openstack.engineering.redhat.com", 
             "pm_password": "100yard-", 
             "pm_type": "pxe_ipmitool",
@@ -479,11 +479,11 @@
         {
             "arch": "x86_64", 
             "cpu": "2", 
-            "disk": "20", 
+            "disk": "40", 
             "mac": [
                 "0c:c4:7a:19:69:d7"
             ], 
-            "memory": "1024", 
+            "memory": "8192", 
             "pm_addr": "mgmt-c05-h13-6048r.rdu.openstack.engineering.redhat.com", 
             "pm_password": "100yard-", 
             "pm_type": "pxe_ipmitool", 
@@ -493,11 +493,11 @@
         {
             "arch": "x86_64", 
             "cpu": "2", 
-            "disk": "20", 
+            "disk": "40", 
             "mac": [
                 "0c:c4:7a:4b:17:ad"
             ], 
-            "memory": "1024", 
+            "memory": "8192", 
             "pm_addr": "mgmt-c05-h33-6018r.rdu.openstack.engineering.redhat.com", 
             "pm_password": "100yard-", 
             "pm_type": "pxe_ipmitool", 
@@ -507,11 +507,11 @@
         {
             "arch": "x86_64", 
             "cpu": "2", 
-            "disk": "20", 
+            "disk": "40", 
             "mac": [
                 "0c:c4:7a:19:6a:47"
             ], 
-            "memory": "1024", 
+            "memory": "8192", 
             "pm_addr": "mgmt-c06-h01-6048r.rdu.openstack.engineering.redhat.com", 
             "pm_password": "100yard-", 
             "pm_type": "pxe_ipmitool", 
@@ -521,11 +521,11 @@
         {
             "arch": "x86_64", 
             "cpu": "2", 
-            "disk": "20", 
+            "disk": "40", 
             "mac": [
                 "0c:c4:7a:19:69:e5"
             ], 
-            "memory": "1024", 
+            "memory": "8192", 
             "pm_addr": "mgmt-c06-h05-6048r.rdu.openstack.engineering.redhat.com", 
             "pm_password": "100yard-", 
             "pm_type": "pxe_ipmitool", 
@@ -535,11 +535,11 @@
         {
             "arch": "x86_64", 
             "cpu": "2", 
-            "disk": "20", 
+            "disk": "40", 
             "mac": [
                 "0c:c4:7a:19:6d:11"
             ], 
-            "memory": "1024", 
+            "memory": "8192", 
             "pm_addr": "mgmt-c06-h09-6048r.rdu.openstack.engineering.redhat.com", 
             "pm_password": "100yard-", 
             "pm_type": "pxe_ipmitool", 
@@ -549,11 +549,11 @@
         {
             "arch": "x86_64", 
             "cpu": "2", 
-            "disk": "20", 
+            "disk": "40", 
             "mac": [
                 "0c:c4:7a:19:6a:bb"
             ], 
-            "memory": "1024", 
+            "memory": "8192", 
             "pm_addr": "mgmt-c06-h13-6048r.rdu.openstack.engineering.redhat.com", 
             "pm_password": "100yard-", 
             "pm_type": "pxe_ipmitool", 
@@ -563,11 +563,11 @@
         {
             "arch": "x86_64", 
             "cpu": "2", 
-            "disk": "20", 
+            "disk": "40", 
             "mac": [
                 "0c:c4:7a:19:6c:45"
             ], 
-            "memory": "1024", 
+            "memory": "8192", 
             "pm_addr": "mgmt-c06-h17-6048r.rdu.openstack.engineering.redhat.com", 
             "pm_password": "100yard-", 
             "pm_type": "pxe_ipmitool", 
@@ -577,11 +577,11 @@
         {
             "arch": "x86_64", 
             "cpu": "2", 
-            "disk": "20", 
+            "disk": "40", 
             "mac": [
                 "0c:c4:7a:19:6c:df"
             ], 
-            "memory": "1024", 
+            "memory": "8192", 
             "pm_addr": "mgmt-c06-h21-6048r.rdu.openstack.engineering.redhat.com", 
             "pm_password": "100yard-", 
             "pm_type": "pxe_ipmitool", 
@@ -591,11 +591,11 @@
         {
             "arch": "x86_64", 
             "cpu": "2", 
-            "disk": "20", 
+            "disk": "40", 
             "mac": [
                 "0c:c4:7a:19:69:45"
             ], 
-            "memory": "1024", 
+            "memory": "8192", 
             "pm_addr": "mgmt-c06-h25-6048r.rdu.openstack.engineering.redhat.com", 
             "pm_password": "100yard-", 
             "pm_type": "pxe_ipmitool", 
@@ -605,11 +605,11 @@
         {
             "arch": "x86_64", 
             "cpu": "2", 
-            "disk": "20", 
+            "disk": "40", 
             "mac": [
                 "0c:c4:7a:49:ed:5d"
             ], 
-            "memory": "1024", 
+            "memory": "8192", 
             "pm_addr": "mgmt-c06-h29-6018r.rdu.openstack.engineering.redhat.com", 
             "pm_password": "100yard-", 
             "pm_type": "pxe_ipmitool",
@@ -619,11 +619,11 @@
         {
             "arch": "x86_64", 
             "cpu": "2", 
-            "disk": "20", 
+            "disk": "40", 
             "mac": [
                 "0c:c4:7a:19:6a:6f"
             ], 
-            "memory": "1024", 
+            "memory": "8192", 
             "pm_addr": "mgmt-c07-h01-6048r.rdu.openstack.engineering.redhat.com", 
             "pm_password": "100yard-", 
             "pm_type": "pxe_ipmitool", 
@@ -633,11 +633,11 @@
         {
             "arch": "x86_64", 
             "cpu": "2", 
-            "disk": "20", 
+            "disk": "40", 
             "mac": [
                 "0c:c4:7a:19:69:b7"
             ], 
-            "memory": "1024", 
+            "memory": "8192", 
             "pm_addr": "mgmt-c07-h05-6048r.rdu.openstack.engineering.redhat.com", 
             "pm_password": "100yard-", 
             "pm_type": "pxe_ipmitool", 
@@ -647,11 +647,11 @@
         {
             "arch": "x86_64", 
             "cpu": "2", 
-            "disk": "20", 
+            "disk": "40", 
             "mac": [
                 "0c:c4:7a:19:68:f9"
             ], 
-            "memory": "1024", 
+            "memory": "8192", 
             "pm_addr": "mgmt-c07-h09-6048r.rdu.openstack.engineering.redhat.com", 
             "pm_password": "100yard-", 
             "pm_type": "pxe_ipmitool", 
@@ -661,11 +661,11 @@
         {
             "arch": "x86_64", 
             "cpu": "2", 
-            "disk": "20", 
+            "disk": "40", 
             "mac": [
                 "0c:c4:7a:19:6a:57"
             ], 
-            "memory": "1024", 
+            "memory": "8192", 
             "pm_addr": "mgmt-c07-h13-6048r.rdu.openstack.engineering.redhat.com", 
             "pm_password": "100yard-", 
             "pm_type": "pxe_ipmitool", 
@@ -675,11 +675,11 @@
         {
             "arch": "x86_64", 
             "cpu": "2", 
-            "disk": "20", 
+            "disk": "40", 
             "mac": [
                 "0c:c4:7a:19:6a:49"
             ], 
-            "memory": "1024", 
+            "memory": "8192", 
             "pm_addr": "mgmt-c07-h17-6048r.rdu.openstack.engineering.redhat.com", 
             "pm_password": "100yard-", 
             "pm_type": "pxe_ipmitool", 
@@ -689,11 +689,11 @@
         {
             "arch": "x86_64", 
             "cpu": "2", 
-            "disk": "20", 
+            "disk": "40", 
             "mac": [
                 "0c:c4:7a:19:6d:0f"
             ], 
-            "memory": "1024", 
+            "memory": "8192", 
             "pm_addr": "mgmt-c07-h21-6048r.rdu.openstack.engineering.redhat.com", 
             "pm_password": "100yard-", 
             "pm_type": "pxe_ipmitool", 
@@ -703,11 +703,11 @@
         {
             "arch": "x86_64", 
             "cpu": "2", 
-            "disk": "20", 
+            "disk": "40", 
             "mac": [
                 "0c:c4:7a:19:6a:19"
             ], 
-            "memory": "1024", 
+            "memory": "8192", 
             "pm_addr": "mgmt-c07-h25-6048r.rdu.openstack.engineering.redhat.com", 
             "pm_password": "100yard-", 
             "pm_type": "pxe_ipmitool", 
@@ -717,11 +717,11 @@
         {
             "arch": "x86_64", 
             "cpu": "2", 
-            "disk": "20", 
+            "disk": "40", 
             "mac": [
                 "0c:c4:7a:4b:18:a5"
             ], 
-            "memory": "1024", 
+            "memory": "8192", 
             "pm_addr": "mgmt-c07-h29-6018r.rdu.openstack.engineering.redhat.com", 
             "pm_password": "100yard-", 
             "pm_type": "pxe_ipmitool", 
@@ -731,11 +731,11 @@
         {
             "arch": "x86_64", 
             "cpu": "2", 
-            "disk": "20", 
+            "disk": "40", 
             "mac": [
                 "0c:c4:7a:4b:5c:b7"
             ], 
-            "memory": "1024", 
+            "memory": "8192", 
             "pm_addr": "mgmt-c07-h30-6018r.rdu.openstack.engineering.redhat.com", 
             "pm_password": "100yard-", 
             "pm_type": "pxe_ipmitool",
